@@ -1,4 +1,4 @@
-const id = 1
+id = 1
 window.data[id] = {
     age: 23,
     gender: "male",
