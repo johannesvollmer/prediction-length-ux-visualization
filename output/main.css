@@ -1,0 +1,55 @@
+html {
+    padding: 8em;
+    background-color: #f8f8f8;
+}
+
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1rem;
+}
+
+h1 { 
+    font-size: 1.3em;
+}
+
+main, #content {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    color: #333;
+    background-color: #fff;
+
+
+    margin: auto;
+    padding: 1em;
+    max-width: 40em;
+
+    box-shadow: 2px 2px 5px #0001;
+    border-radius: 3px;
+}
+
+main > *:not(:last-child), #content > *:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    cursor: pointer;
+    background-color: #eee;
+    color: #333;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #f7f7f7;
+    color: #000;
+}
+
+.hidden {
+    display: none;
+}

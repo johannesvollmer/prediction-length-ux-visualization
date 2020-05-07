@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".elm|.json",
+                "cmd": ".\\compile.bat"
+            },
+        ]
+    }
+}
