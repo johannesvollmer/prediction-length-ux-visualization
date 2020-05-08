@@ -53,3 +53,14 @@ button:hover {
 .hidden {
     display: none;
 }
+
+path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}

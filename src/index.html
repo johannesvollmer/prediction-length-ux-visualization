@@ -10,8 +10,11 @@
 <body>
     <main>
         <h1>User Experience Visualization</h1>
-        <div id="elm"></div>
+        <div id="contents"></div>
     </main>
+
+    <script src="spearman.js"></script>
+    <script src="levenshtein.js"></script>
     
     <script>window.data = []</script>
     <script src="../data/0.js"></script>
@@ -37,12 +40,5 @@
 
     <script src="app.js"></script>
 
-    <script>
-        console.log("providing data", window.data)
-        Elm.Main.init({
-            node: document.querySelector('#elm'),
-            flags: window.data
-        })
-    </script>
 </body>
 </html>
