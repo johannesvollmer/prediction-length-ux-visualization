@@ -1,0 +1,2950 @@
+[
+    {
+        "phrases": [
+            {
+                "target": "the objective of the exercise",
+                "threshold": 0.6,
+                "suggestions": [
+                    "the objective of all physics",
+                    "the objective of the exercise",
+                    "the objective of investigation is to know the truth"
+                ]
+            },
+            {
+                "target": "sharp cheese keeps the mind sharp",
+                "threshold": 0.4,
+                "suggestions": [
+                    "sharp cheese keeps the sandwich soft and moist",
+                    "sharp cheese keeps the dough crispy on the edges!",
+                    "sharp cheese keeps the patties moist"
+                ]
+            },
+            {
+                "target": "the presidential suite is very busy",
+                "threshold": 0.2,
+                "suggestions": [
+                    "the presidential suite is very nice",
+                    "the presidential suite is located on the second level",
+                    "the presidential suite"
+                ]
+            },
+            {
+                "target": "public transit is much faster",
+                "threshold": 0,
+                "suggestions": [
+                    "public transit is not an alternative to cars",
+                    "public transit is part of society",
+                    "public transit is much faster"
+                ]
+            },
+            {
+                "target": "a lot of chlorine in the water",
+                "threshold": 1,
+                "suggestions": [
+                    "a lot of books",
+                    "a lot of chlorine in the water is toxic",
+                    "a lot of chlorine in the water"
+                ]
+            },
+            {
+                "target": "what a lovely red jacket",
+                "threshold": 0.8,
+                "suggestions": [
+                    "what a lovely way of keeping score",
+                    "what a lovely red jacket",
+                    "what a lovely library it is"
+                ]
+            },
+            {
+                "target": "I will meet you at noon",
+                "threshold": 0.2,
+                "suggestions": [
+                    "I will meet with Sen",
+                    "I will meet you at noon",
+                    "I will meet you when you arrive"
+                ]
+            },
+            {
+                "target": "freud wrote of the ego",
+                "threshold": 0,
+                "suggestions": [
+                    "freud wrote of the use of psychedelics",
+                    "freud wrote of WH",
+                    "freud wrote of the ego"
+                ]
+            },
+            {
+                "target": "bank transaction was not registered",
+                "threshold": 0.4,
+                "suggestions": [
+                    "bank transaction was an open-ended promise to",
+                    "bank transaction was intended to bolster Mr",
+                    "bank transaction was not registered"
+                ]
+            },
+            {
+                "target": "win first prize in the contest",
+                "threshold": 0.8,
+                "suggestions": [
+                    "win first prize",
+                    "win first prize in the contest",
+                    "win first prize in 1917"
+                ]
+            },
+            {
+                "target": "put garbage in an abandoned mine",
+                "threshold": 1,
+                "suggestions": [
+                    "put garbage in an abandoned mine",
+                    "put garbage in his house",
+                    "put garbage in my mouth"
+                ]
+            },
+            {
+                "target": "our silver anniversary is coming",
+                "threshold": 0.6,
+                "suggestions": [
+                    "our silver anniversary self-badge",
+                    "our silver anniversary is coming",
+                    "our silver anniversary"
+                ]
+            },
+            {
+                "target": "my bare face in the wind",
+                "threshold": 0,
+                "suggestions": [
+                    "my bare face in the wind",
+                    "my bare face in full view of the camera",
+                    "my bare face in his eyes"
+                ]
+            },
+            {
+                "target": "the sun rises in the east",
+                "threshold": 0.2,
+                "suggestions": [
+                    "the sun rises and sets every day",
+                    "the sun rises",
+                    "the sun rises and sets"
+                ]
+            },
+            {
+                "target": "I can play much better now",
+                "threshold": 0.6,
+                "suggestions": [
+                    "I can play much faster than my father",
+                    "I can play much better now",
+                    "I can play much better over time"
+                ]
+            },
+            {
+                "target": "the first time he tried to swim",
+                "threshold": 1,
+                "suggestions": [
+                    "the first time",
+                    "the first time this has happened in 15 years",
+                    "the first time he tried to swim"
+                ]
+            },
+            {
+                "target": "prepare for the exam in advance",
+                "threshold": 0.8,
+                "suggestions": [
+                    "prepare for the exam in advance",
+                    "prepare for the upcoming election",
+                    "prepare for the least significant bits"
+                ]
+            },
+            {
+                "target": "the dog buried the bone",
+                "threshold": 0.4,
+                "suggestions": [
+                    "the dog buried in the cemetary?",
+                    "the dog buried his head in the sand",
+                    "the dog buried in the garden"
+                ]
+            },
+            {
+                "target": "staying up all night is a bad idea",
+                "threshold": 0.2,
+                "suggestions": [
+                    "staying up all night is a little difficult",
+                    "staying up all night is a luxury",
+                    "staying up all night is a bad idea"
+                ]
+            },
+            {
+                "target": "the four seasons will come",
+                "threshold": 0,
+                "suggestions": [
+                    "the four seasons that I played there",
+                    "the four seasons of A Fistful of Dollars?",
+                    "the four seasons prior to JR"
+                ]
+            },
+            {
+                "target": "please take a bath this month",
+                "threshold": 0.8,
+                "suggestions": [
+                    "please take a look",
+                    "please take a bath this month",
+                    "please take a bath and go brush your teeth!"
+                ]
+            },
+            {
+                "target": "a fox is a very smart animal",
+                "threshold": 0.4,
+                "suggestions": [
+                    "a fox is a very smart animal",
+                    "a fox is a fox, regardless of shape?",
+                    "a fox is a part of our education"
+                ]
+            },
+            {
+                "target": "dormitory doors are locked at midnight",
+                "threshold": 0.6,
+                "suggestions": [
+                    "dormitory doors are locked from the inside",
+                    "dormitory doors are locked for privacy",
+                    "dormitory doors are locked at midnight"
+                ]
+            },
+            {
+                "target": "no more war no more bloodshed",
+                "threshold": 1,
+                "suggestions": [
+                    "no more war no more death no more suffering!",
+                    "no more war",
+                    "no more war no more bloodshed"
+                ]
+            }
+        ]
+    },
+    {
+        "time": 125343.45000001485,
+        "next": null
+    },
+    {
+        "time": 274831.1850000173,
+        "next": null
+    },
+    {
+        "time": 275298.3950000198,
+        "text": "t"
+    },
+    {
+        "time": 275458.52499999455,
+        "text": "te"
+    },
+    {
+        "time": 275530.3750000021,
+        "text": "teh"
+    },
+    {
+        "time": 276050.25000000023,
+        "text": "te"
+    },
+    {
+        "time": 276154.30500000366,
+        "text": "t"
+    },
+    {
+        "time": 276474.5450000046,
+        "text": "th"
+    },
+    {
+        "time": 276513.7550000218,
+        "text": "the"
+    },
+    {
+        "time": 277034.13000001456,
+        "text": "the "
+    },
+    {
+        "time": 277322.2300000198,
+        "text": "the b"
+    },
+    {
+        "time": 277553.95000000135,
+        "text": "the "
+    },
+    {
+        "time": 277714.41000001505,
+        "text": "the o"
+    },
+    {
+        "time": 277826.52000000235,
+        "text": "the ob"
+    },
+    {
+        "time": 277945.97500000964,
+        "text": "the obj"
+    },
+    {
+        "time": 278122.27500000154,
+        "text": "the obje"
+    },
+    {
+        "time": 278330.64000000013,
+        "text": "the objec"
+    },
+    {
+        "time": 278554.55000000075,
+        "text": "the object"
+    },
+    {
+        "time": 278650.14500002144,
+        "text": "the objecti"
+    },
+    {
+        "time": 278786.80500001065,
+        "text": "the objectiv"
+    },
+    {
+        "time": 278906.5249999985,
+        "text": "the objective"
+    },
+    {
+        "time": 278978.1350000121,
+        "text": "the objective "
+    },
+    {
+        "time": 279138.1550000224,
+        "text": "the objective o"
+    },
+    {
+        "time": 279441.8799999985,
+        "text": "the objective of"
+    },
+    {
+        "time": 279544.6650000231,
+        "text": "the objective of "
+    },
+    {
+        "time": 279754.02000002214,
+        "text": "the objective of t"
+    },
+    {
+        "time": 279834.03500000713,
+        "text": "the objective of th"
+    },
+    {
+        "time": 279946.69500002055,
+        "text": "the objective of the"
+    },
+    {
+        "time": 280066.53500001994,
+        "text": "the objective of the "
+    },
+    {
+        "time": 280218.28000000096,
+        "text": "the objective of the e"
+    },
+    {
+        "time": 280650.3200000152,
+        "text": "the objective of the ex"
+    },
+    {
+        "time": 280874.8150000174,
+        "text": "the objective of the exe"
+    },
+    {
+        "time": 281002.85000001895,
+        "text": "the objective of the exer"
+    },
+    {
+        "time": 281233.94999999437,
+        "text": "the objective of the exerc"
+    },
+    {
+        "time": 281354.6550000028,
+        "text": "the objective of the exerci"
+    },
+    {
+        "time": 281482.84500002046,
+        "text": "the objective of the exercis"
+    },
+    {
+        "time": 281642.3300000024,
+        "text": "the objective of the exercise"
+    },
+    {
+        "time": 339904.42999999505,
+        "next": null
+    },
+    {
+        "time": 368342.65000000596,
+        "next": null
+    },
+    {
+        "time": 368609.0100000147,
+        "text": "s"
+    },
+    {
+        "time": 368872.86000000313,
+        "text": "sh"
+    },
+    {
+        "time": 369048.94000000786,
+        "text": "sha"
+    },
+    {
+        "time": 369217.9550000001,
+        "text": "shar"
+    },
+    {
+        "time": 369361.1000000092,
+        "text": "shar "
+    },
+    {
+        "time": 369705.5249999976,
+        "text": "shar"
+    },
+    {
+        "time": 369882.0800000103,
+        "text": "sharp"
+    },
+    {
+        "time": 370048.52500002016,
+        "text": "sharp "
+    },
+    {
+        "time": 370449.025000009,
+        "text": "sharp c"
+    },
+    {
+        "time": 370520.7850000006,
+        "text": "sharp ch"
+    },
+    {
+        "time": 370627.85000001895,
+        "text": "sharp che"
+    },
+    {
+        "time": 370768.7250000017,
+        "text": "sharp chee"
+    },
+    {
+        "time": 370976.6750000126,
+        "text": "sharp chees"
+    },
+    {
+        "time": 371145.5549999955,
+        "text": "sharp cheese"
+    },
+    {
+        "time": 371256.6550000047,
+        "text": "sharp cheese "
+    },
+    {
+        "time": 371392.6400000055,
+        "text": "sharp cheese k"
+    },
+    {
+        "time": 371513.6900000216,
+        "text": "sharp cheese ke"
+    },
+    {
+        "time": 371641.03500000783,
+        "text": "sharp cheese kee"
+    },
+    {
+        "time": 371745.2200000116,
+        "text": "sharp cheese keep"
+    },
+    {
+        "time": 371848.59500001767,
+        "text": "sharp cheese keeps"
+    },
+    {
+        "time": 372056.77500000456,
+        "text": "sharp cheese keeps "
+    },
+    {
+        "time": 372344.72500000265,
+        "text": "sharp cheese keeps t"
+    },
+    {
+        "time": 372449.6950000175,
+        "text": "sharp cheese keeps th"
+    },
+    {
+        "time": 372561.0750000051,
+        "text": "sharp cheese keeps the"
+    },
+    {
+        "time": 372664.9949999992,
+        "text": "sharp cheese keeps the "
+    },
+    {
+        "time": 372769.19500000076,
+        "text": "sharp cheese keeps the m"
+    },
+    {
+        "time": 372890.19000000553,
+        "text": "sharp cheese keeps the mi"
+    },
+    {
+        "time": 373032.81000000425,
+        "text": "sharp cheese keeps the min"
+    },
+    {
+        "time": 373089.1549999942,
+        "text": "sharp cheese keeps the mind"
+    },
+    {
+        "time": 373568.6149999965,
+        "text": "sharp cheese keeps the mind "
+    },
+    {
+        "time": 373649.1099999985,
+        "text": "sharp cheese keeps the mind s"
+    },
+    {
+        "time": 373761.0149999964,
+        "text": "sharp cheese keeps the mind sh"
+    },
+    {
+        "time": 373880.80000001355,
+        "text": "sharp cheese keeps the mind sha"
+    },
+    {
+        "time": 374000.6750000175,
+        "text": "sharp cheese keeps the mind shar"
+    },
+    {
+        "time": 374096.40000000945,
+        "text": "sharp cheese keeps the mind sharp"
+    },
+    {
+        "time": 388331.69500000076,
+        "next": null
+    },
+    {
+        "time": 394517.93500001077,
+        "next": null
+    },
+    {
+        "time": 394832.54000000306,
+        "text": "t"
+    },
+    {
+        "time": 395040.37000000244,
+        "text": "th"
+    },
+    {
+        "time": 395144.2950000055,
+        "text": "the"
+    },
+    {
+        "time": 395264.23500000965,
+        "text": "the "
+    },
+    {
+        "time": 395632.37999999546,
+        "text": "the"
+    },
+    {
+        "time": 396080.0600000075,
+        "text": "the "
+    },
+    {
+        "time": 396272.6950000215,
+        "text": "the e"
+    },
+    {
+        "time": 396352.3200000054,
+        "text": "the ep"
+    },
+    {
+        "time": 396544.3249999953,
+        "text": "the e"
+    },
+    {
+        "time": 396664.35500001535,
+        "text": "the "
+    },
+    {
+        "time": 396792.3400000145,
+        "text": "the p"
+    },
+    {
+        "time": 396872.12000001455,
+        "text": "the pr"
+    },
+    {
+        "time": 396984.69000001205,
+        "text": "the pre"
+    },
+    {
+        "time": 397160.3199999954,
+        "text": "the pres"
+    },
+    {
+        "time": 397512.37500002026,
+        "text": "the presi"
+    },
+    {
+        "time": 397704.9550000229,
+        "text": "the presid"
+    },
+    {
+        "time": 397856.35499999626,
+        "text": "the preside"
+    },
+    {
+        "time": 397928.70499999844,
+        "text": "the presiden"
+    },
+    {
+        "time": 398048.81999999634,
+        "text": "the president"
+    },
+    {
+        "time": 399056.3550000079,
+        "text": "the presidenti"
+    },
+    {
+        "time": 399216.7550000013,
+        "text": "the presidentia"
+    },
+    {
+        "time": 399304.3900000048,
+        "text": "the presidential"
+    },
+    {
+        "time": 399472.27500000736,
+        "text": "the presidential "
+    },
+    {
+        "time": 399728.4300000174,
+        "text": "the presidential s"
+    },
+    {
+        "time": 399808.87999999686,
+        "text": "the presidential su"
+    },
+    {
+        "time": 399984.9749999994,
+        "text": "the presidential sui"
+    },
+    {
+        "time": 400128.0700000061,
+        "text": "the presidential suit"
+    },
+    {
+        "time": 400297.07000000053,
+        "text": "the presidential suite"
+    },
+    {
+        "time": 400585.84499999415,
+        "text": "the presidential suite "
+    },
+    {
+        "time": 400784.6750000026,
+        "text": "the presidential suite i"
+    },
+    {
+        "time": 400872.635000007,
+        "text": "the presidential suite is"
+    },
+    {
+        "time": 400976.8299999996,
+        "text": "the presidential suite is "
+    },
+    {
+        "time": 401122.27500000154,
+        "text": "the presidential suite is v"
+    },
+    {
+        "time": 401256.37000001734,
+        "text": "the presidential suite is ve"
+    },
+    {
+        "time": 401352.4949999992,
+        "text": "the presidential suite is ver"
+    },
+    {
+        "time": 401544.8750000214,
+        "text": "the presidential suite is very"
+    },
+    {
+        "time": 401656.38000000035,
+        "text": "the presidential suite is very "
+    },
+    {
+        "time": 401824.4100000011,
+        "text": "the presidential suite is very b"
+    },
+    {
+        "time": 401896.3400000066,
+        "text": "the presidential suite is very bu"
+    },
+    {
+        "time": 402456.7800000077,
+        "text": "the presidential suite is very bus"
+    },
+    {
+        "time": 402664.72000000067,
+        "text": "the presidential suite is very busy"
+    },
+    {
+        "time": 404559.58500001,
+        "next": null
+    },
+    {
+        "time": 408043.5900000157,
+        "next": null
+    },
+    {
+        "time": 408650.0550000055,
+        "text": "p"
+    },
+    {
+        "time": 408920.31499999575,
+        "text": "pu"
+    },
+    {
+        "time": 409224.86000001663,
+        "text": "pub"
+    },
+    {
+        "time": 409360.10499999975,
+        "text": "publ"
+    },
+    {
+        "time": 409456.50000000023,
+        "text": "publi"
+    },
+    {
+        "time": 409592.70000000834,
+        "text": "public"
+    },
+    {
+        "time": 409832.34000002267,
+        "text": "public "
+    },
+    {
+        "time": 410048.7150000117,
+        "text": "public t"
+    },
+    {
+        "time": 410232.48000000603,
+        "text": "public tr"
+    },
+    {
+        "time": 410456.2399999995,
+        "text": "public trn"
+    },
+    {
+        "time": 411288.3000000147,
+        "text": "public tr"
+    },
+    {
+        "time": 411744.9800000177,
+        "text": "public tra"
+    },
+    {
+        "time": 411888.5700000101,
+        "text": "public tran"
+    },
+    {
+        "time": 411992.58499999996,
+        "text": "public trans"
+    },
+    {
+        "time": 412168.2200000214,
+        "text": "public transi"
+    },
+    {
+        "time": 413679.9600000086,
+        "suggestion": "public transit is much faster"
+    },
+    {
+        "time": 450305.3749999963,
+        "next": null
+    },
+    {
+        "time": 450519.5250000106,
+        "text": "a"
+    },
+    {
+        "time": 450784.0050000232,
+        "text": "a "
+    },
+    {
+        "time": 450944.46500000777,
+        "text": "a l"
+    },
+    {
+        "time": 451096.18500000215,
+        "text": "a lo"
+    },
+    {
+        "time": 451208.42000000994,
+        "text": "a lot"
+    },
+    {
+        "time": 451359.924999997,
+        "text": "a lot "
+    },
+    {
+        "time": 451535.85000001476,
+        "text": "a lot o"
+    },
+    {
+        "time": 451679.48500000057,
+        "text": "a lot of"
+    },
+    {
+        "time": 451792.4700000149,
+        "text": "a lot of "
+    },
+    {
+        "time": 452025.8400000166,
+        "text": "a lot of c"
+    },
+    {
+        "time": 452263.47999999416,
+        "text": "a lot of ch"
+    },
+    {
+        "time": 452432.1850000124,
+        "text": "a lot of chl"
+    },
+    {
+        "time": 452639.6750000131,
+        "text": "a lot of chlo"
+    },
+    {
+        "time": 452775.8000000031,
+        "text": "a lot of chlor"
+    },
+    {
+        "time": 453128.1149999995,
+        "text": "a lot of chlori"
+    },
+    {
+        "time": 453307.65000000247,
+        "text": "a lot of chlorin"
+    },
+    {
+        "time": 453424.72500001895,
+        "text": "a lot of chlorine"
+    },
+    {
+        "time": 453487.4950000085,
+        "text": "a lot of chlorine "
+    },
+    {
+        "time": 453832.3050000181,
+        "text": "a lot of chlorine i"
+    },
+    {
+        "time": 453967.54500002135,
+        "text": "a lot of chlorine in"
+    },
+    {
+        "time": 454079.62000000407,
+        "text": "a lot of chlorine in "
+    },
+    {
+        "time": 454176.1150000093,
+        "text": "a lot of chlorine in t"
+    },
+    {
+        "time": 454247.86000000313,
+        "text": "a lot of chlorine in th"
+    },
+    {
+        "time": 454351.725000015,
+        "text": "a lot of chlorine in the"
+    },
+    {
+        "time": 454423.46000002,
+        "text": "a lot of chlorine in the "
+    },
+    {
+        "time": 454543.6950000003,
+        "text": "a lot of chlorine in the w"
+    },
+    {
+        "time": 454712.12500002,
+        "text": "a lot of chlorine in the wa"
+    },
+    {
+        "time": 454928.035000019,
+        "text": "a lot of chlorine in the wat"
+    },
+    {
+        "time": 455145.0199999963,
+        "text": "a lot of chlorine in the wate"
+    },
+    {
+        "time": 455252.8549999988,
+        "text": "a lot of chlorine in the water"
+    },
+    {
+        "time": 456632.7300000121,
+        "next": null
+    },
+    {
+        "time": 460628.7350000057,
+        "next": null
+    },
+    {
+        "time": 460799.3350000179,
+        "text": "w"
+    },
+    {
+        "time": 461104.9700000149,
+        "text": "wh"
+    },
+    {
+        "time": 461231.5800000215,
+        "text": "wha"
+    },
+    {
+        "time": 461423.23499999475,
+        "text": "what"
+    },
+    {
+        "time": 461520.0800000166,
+        "text": "what "
+    },
+    {
+        "time": 461687.47500001336,
+        "text": "what a"
+    },
+    {
+        "time": 461832.16000001994,
+        "text": "what a "
+    },
+    {
+        "time": 462040.7150000101,
+        "text": "what a j"
+    },
+    {
+        "time": 462320.1550000231,
+        "text": "what a "
+    },
+    {
+        "time": 462495.76499999966,
+        "text": "what a l"
+    },
+    {
+        "time": 462623.3400000201,
+        "text": "what a lo"
+    },
+    {
+        "time": 462727.70000001765,
+        "text": "what a lov"
+    },
+    {
+        "time": 462847.5800000015,
+        "text": "what a love"
+    },
+    {
+        "time": 462943.9650000131,
+        "text": "what a lovel"
+    },
+    {
+        "time": 463257.8650000214,
+        "text": "what a lovely"
+    },
+    {
+        "time": 463391.5450000204,
+        "text": "what a lovely "
+    },
+    {
+        "time": 463527.6050000102,
+        "text": "what a lovely r"
+    },
+    {
+        "time": 463703.47000000766,
+        "text": "what a lovely re"
+    },
+    {
+        "time": 463912.3350000009,
+        "text": "what a lovely red"
+    },
+    {
+        "time": 464007.63000000734,
+        "text": "what a lovely red "
+    },
+    {
+        "time": 464119.5350000053,
+        "text": "what a lovely red j"
+    },
+    {
+        "time": 464207.74500002153,
+        "text": "what a lovely red je"
+    },
+    {
+        "time": 464705.7050000003,
+        "text": "what a lovely red j"
+    },
+    {
+        "time": 464784.80500000296,
+        "text": "what a lovely red ja"
+    },
+    {
+        "time": 464887.56000000285,
+        "text": "what a lovely red jac"
+    },
+    {
+        "time": 464951.38000001316,
+        "text": "what a lovely red jack"
+    },
+    {
+        "time": 465111.78000000655,
+        "text": "what a lovely red jacke"
+    },
+    {
+        "time": 465327.5450000074,
+        "text": "what a lovely red jacket"
+    },
+    {
+        "time": 466553.0200000212,
+        "next": null
+    },
+    {
+        "time": 655014.0350000001,
+        "next": null
+    },
+    {
+        "time": 669999.8550000018,
+        "next": null
+    },
+    {
+        "time": 670600.3849999979,
+        "text": "I"
+    },
+    {
+        "time": 670772.5199999986,
+        "text": "I "
+    },
+    {
+        "time": 670853.1550000189,
+        "text": "I w"
+    },
+    {
+        "time": 670957.3450000025,
+        "text": "I wi"
+    },
+    {
+        "time": 671132.3700000066,
+        "text": "I wil"
+    },
+    {
+        "time": 671252.8250000032,
+        "text": "I will"
+    },
+    {
+        "time": 671380.7050000178,
+        "text": "I will "
+    },
+    {
+        "time": 671516.5450000204,
+        "text": "I will m"
+    },
+    {
+        "time": 671620.6649999949,
+        "text": "I will me"
+    },
+    {
+        "time": 671765.1250000054,
+        "text": "I will mee"
+    },
+    {
+        "time": 671916.6900000127,
+        "text": "I will meet"
+    },
+    {
+        "time": 672052.2650000057,
+        "text": "I will meet "
+    },
+    {
+        "time": 672220.6149999984,
+        "text": "I will meet y"
+    },
+    {
+        "time": 672316.5399999998,
+        "text": "I will meet yo"
+    },
+    {
+        "time": 672436.5300000063,
+        "text": "I will meet you"
+    },
+    {
+        "time": 672541.2650000071,
+        "text": "I will meet you "
+    },
+    {
+        "time": 672636.4600000088,
+        "text": "I will meet you a"
+    },
+    {
+        "time": 672820.6749999954,
+        "text": "I will meet you at"
+    },
+    {
+        "time": 673076.5750000137,
+        "text": "I will meet you at "
+    },
+    {
+        "time": 673348.4750000061,
+        "text": "I will meet you at n"
+    },
+    {
+        "time": 673524.620000011,
+        "text": "I will meet you at no"
+    },
+    {
+        "time": 673652.5250000122,
+        "text": "I will meet you at noo"
+    },
+    {
+        "time": 673852.4150000012,
+        "text": "I will meet you at noon"
+    },
+    {
+        "time": 675171.7449999996,
+        "next": null
+    },
+    {
+        "time": 688397.4800000142,
+        "next": null
+    },
+    {
+        "time": 688564.4250000187,
+        "text": "f"
+    },
+    {
+        "time": 688748.4700000205,
+        "text": "fr"
+    },
+    {
+        "time": 688836.5850000118,
+        "text": "fre"
+    },
+    {
+        "time": 688950.1600000076,
+        "text": "freu"
+    },
+    {
+        "time": 689132.2750000108,
+        "text": "freud"
+    },
+    {
+        "time": 689236.7050000175,
+        "text": "freud "
+    },
+    {
+        "time": 689397.0649999974,
+        "text": "freud w"
+    },
+    {
+        "time": 689588.4450000012,
+        "text": "freud wr"
+    },
+    {
+        "time": 689876.575000002,
+        "text": "freud wro"
+    },
+    {
+        "time": 690007.1800000151,
+        "text": "freud wrot"
+    },
+    {
+        "time": 690308.3900000202,
+        "text": "freud wrote"
+    },
+    {
+        "time": 691487.7450000204,
+        "suggestion": "freud wrote of the ego"
+    },
+    {
+        "time": 775732.4400000216,
+        "next": null
+    },
+    {
+        "time": 775907.1550000226,
+        "text": "b"
+    },
+    {
+        "time": 775978.9049999963,
+        "text": "ba"
+    },
+    {
+        "time": 776219.4350000063,
+        "text": "ban"
+    },
+    {
+        "time": 776347.3950000189,
+        "text": "bank"
+    },
+    {
+        "time": 776523.4050000145,
+        "text": "bank "
+    },
+    {
+        "time": 777003.235000011,
+        "text": "bank t"
+    },
+    {
+        "time": 777187.2300000105,
+        "text": "bank tr"
+    },
+    {
+        "time": 777274.8900000006,
+        "text": "bank tra"
+    },
+    {
+        "time": 777508.0250000174,
+        "text": "bank tran"
+    },
+    {
+        "time": 777666.9399999955,
+        "text": "bank trans"
+    },
+    {
+        "time": 777861.8650000135,
+        "text": "bank transa"
+    },
+    {
+        "time": 778010.7800000114,
+        "text": "bank transac"
+    },
+    {
+        "time": 778195.3750000102,
+        "text": "bank transact"
+    },
+    {
+        "time": 778274.8150000116,
+        "text": "bank transacti"
+    },
+    {
+        "time": 778363.795000012,
+        "text": "bank transactio"
+    },
+    {
+        "time": 778531.4599999983,
+        "text": "bank transaction"
+    },
+    {
+        "time": 778667.0950000116,
+        "text": "bank transaction "
+    },
+    {
+        "time": 778707.8900000197,
+        "text": "bank transaction w"
+    },
+    {
+        "time": 778882.8400000057,
+        "text": "bank transaction wa"
+    },
+    {
+        "time": 779060.1650000026,
+        "text": "bank transaction was"
+    },
+    {
+        "time": 779163.5349999997,
+        "text": "bank transaction was "
+    },
+    {
+        "time": 779299.0350000036,
+        "text": "bank transaction was n"
+    },
+    {
+        "time": 779420.2000000223,
+        "text": "bank transaction was no"
+    },
+    {
+        "time": 779570.8049999957,
+        "text": "bank transaction was not"
+    },
+    {
+        "time": 780706.2000000151,
+        "suggestion": "bank transaction was not registered"
+    },
+    {
+        "time": 787676.1100000003,
+        "next": null
+    },
+    {
+        "time": 787915.2199999953,
+        "text": "w"
+    },
+    {
+        "time": 788122.8249999986,
+        "text": "wi"
+    },
+    {
+        "time": 788378.8050000148,
+        "text": "win"
+    },
+    {
+        "time": 788434.9550000043,
+        "text": "win "
+    },
+    {
+        "time": 788834.8600000027,
+        "text": "win f"
+    },
+    {
+        "time": 788939.3050000072,
+        "text": "win fi"
+    },
+    {
+        "time": 789107.1600000141,
+        "text": "win fir"
+    },
+    {
+        "time": 789235.2649999957,
+        "text": "win firs"
+    },
+    {
+        "time": 789379.1800000181,
+        "text": "win first"
+    },
+    {
+        "time": 789469.1250000033,
+        "text": "win first "
+    },
+    {
+        "time": 789682.7400000184,
+        "text": "win first p"
+    },
+    {
+        "time": 789794.8100000212,
+        "text": "win first pr"
+    },
+    {
+        "time": 789899.3699999992,
+        "text": "win first pri"
+    },
+    {
+        "time": 790170.7900000038,
+        "text": "win first priz"
+    },
+    {
+        "time": 790324.4050000212,
+        "text": "win first prize"
+    },
+    {
+        "time": 790483.0050000164,
+        "text": "win first prize "
+    },
+    {
+        "time": 790691.0199999984,
+        "text": "win first prize i"
+    },
+    {
+        "time": 790834.8600000027,
+        "text": "win first prize in"
+    },
+    {
+        "time": 790947.6100000029,
+        "text": "win first prize in "
+    },
+    {
+        "time": 791018.8000000198,
+        "text": "win first prize in t"
+    },
+    {
+        "time": 791138.6700000148,
+        "text": "win first prize in th"
+    },
+    {
+        "time": 791194.8600000178,
+        "text": "win first prize in the"
+    },
+    {
+        "time": 791507.2100000107,
+        "text": "win first prize in the "
+    },
+    {
+        "time": 791610.8550000063,
+        "text": "win first prize in the c"
+    },
+    {
+        "time": 791709.1400000209,
+        "text": "win first prize in the co"
+    },
+    {
+        "time": 791834.8550000228,
+        "text": "win first prize in the con"
+    },
+    {
+        "time": 791923.0700000189,
+        "text": "win first prize in the cont"
+    },
+    {
+        "time": 792019.1449999984,
+        "text": "win first prize in the conte"
+    },
+    {
+        "time": 792283.0200000026,
+        "text": "win first prize in the contes"
+    },
+    {
+        "time": 792410.7249999943,
+        "text": "win first prize in the contest"
+    },
+    {
+        "time": 793628.4450000094,
+        "next": null
+    },
+    {
+        "time": 959629.9450000224,
+        "next": null
+    },
+    {
+        "time": 960164.7550000052,
+        "text": "p"
+    },
+    {
+        "time": 960360.3299999959,
+        "text": "pu"
+    },
+    {
+        "time": 960537.1950000117,
+        "text": "put"
+    },
+    {
+        "time": 960640.6050000223,
+        "text": "put "
+    },
+    {
+        "time": 960880.9450000117,
+        "text": "put g"
+    },
+    {
+        "time": 961016.9900000037,
+        "text": "put ga"
+    },
+    {
+        "time": 961424.4100000069,
+        "text": "put gar"
+    },
+    {
+        "time": 961712.8150000062,
+        "text": "put garb"
+    },
+    {
+        "time": 962056.7000000156,
+        "text": "put garba"
+    },
+    {
+        "time": 962192.5900000206,
+        "text": "put garbag"
+    },
+    {
+        "time": 962320.5050000106,
+        "text": "put garbage"
+    },
+    {
+        "time": 962416.6250000126,
+        "text": "put garbage "
+    },
+    {
+        "time": 962584.3500000192,
+        "text": "put garbage i"
+    },
+    {
+        "time": 962768.2150000182,
+        "text": "put garbage in"
+    },
+    {
+        "time": 962977.5050000171,
+        "text": "put garbage int"
+    },
+    {
+        "time": 963128.3399999957,
+        "text": "put garbage into"
+    },
+    {
+        "time": 963304.5149999962,
+        "text": "put garbage into "
+    },
+    {
+        "time": 963411.1200000043,
+        "text": "put garbage into a"
+    },
+    {
+        "time": 963489.0050000104,
+        "text": "put garbage into an"
+    },
+    {
+        "time": 963592.2450000071,
+        "text": "put garbage into an "
+    },
+    {
+        "time": 963704.5000000217,
+        "text": "put garbage into an a"
+    },
+    {
+        "time": 963888.7500000128,
+        "text": "put garbage into an ab"
+    },
+    {
+        "time": 964064.5500000101,
+        "text": "put garbage into an aba"
+    },
+    {
+        "time": 964240.8250000153,
+        "text": "put garbage into an aban"
+    },
+    {
+        "time": 964436.2649999966,
+        "text": "put garbage into an aband"
+    },
+    {
+        "time": 964624.850000022,
+        "text": "put garbage into an abando"
+    },
+    {
+        "time": 964808.5850000207,
+        "text": "put garbage into an abandon"
+    },
+    {
+        "time": 964921.325000003,
+        "text": "put garbage into an abandone"
+    },
+    {
+        "time": 965096.4099999983,
+        "text": "put garbage into an abandoned"
+    },
+    {
+        "time": 965184.7500000149,
+        "text": "put garbage into an abandoned "
+    },
+    {
+        "time": 965314.0200000198,
+        "text": "put garbage into an abandoned m"
+    },
+    {
+        "time": 965392.9250000219,
+        "text": "put garbage into an abandoned mi"
+    },
+    {
+        "time": 965528.725000011,
+        "text": "put garbage into an abandoned min"
+    },
+    {
+        "time": 965616.2849999964,
+        "text": "put garbage into an abandoned mine"
+    },
+    {
+        "time": 966957.8150000016,
+        "next": null
+    },
+    {
+        "time": 973551.615000004,
+        "next": null
+    },
+    {
+        "time": 974088.6800000153,
+        "text": "o"
+    },
+    {
+        "time": 974256.8350000074,
+        "text": "ou"
+    },
+    {
+        "time": 974352.9149999958,
+        "text": "our"
+    },
+    {
+        "time": 974472.1350000182,
+        "text": "our "
+    },
+    {
+        "time": 974600.3199999977,
+        "text": "our s"
+    },
+    {
+        "time": 974744.245000009,
+        "text": "our si"
+    },
+    {
+        "time": 974912.2849999985,
+        "text": "our sil"
+    },
+    {
+        "time": 975008.2200000179,
+        "text": "our silv"
+    },
+    {
+        "time": 975144.5300000196,
+        "text": "our silve"
+    },
+    {
+        "time": 975240.2550000115,
+        "text": "our silver"
+    },
+    {
+        "time": 975305.4700000212,
+        "text": "our silver "
+    },
+    {
+        "time": 975432.2000000102,
+        "text": "our silver a"
+    },
+    {
+        "time": 975504.2400000093,
+        "text": "our silver an"
+    },
+    {
+        "time": 975888.3650000207,
+        "text": "our silver ann"
+    },
+    {
+        "time": 976016.9450000103,
+        "text": "our silver anni"
+    },
+    {
+        "time": 976120.43000001,
+        "text": "our silver anniv"
+    },
+    {
+        "time": 976464.4400000107,
+        "text": "our silver annive"
+    },
+    {
+        "time": 976592.3650000186,
+        "text": "our silver anniver"
+    },
+    {
+        "time": 976768.2000000204,
+        "text": "our silver annivera"
+    },
+    {
+        "time": 977368.1199999992,
+        "text": "our silver anniver"
+    },
+    {
+        "time": 978088.7400000065,
+        "text": "our silver annivers"
+    },
+    {
+        "time": 978272.3600000027,
+        "text": "our silver anniversa"
+    },
+    {
+        "time": 979543.800000014,
+        "suggestion": "our silver anniversary is coming"
+    },
+    {
+        "time": 988995.4500000167,
+        "next": null
+    },
+    {
+        "time": 1061382.2400000063,
+        "next": null
+    },
+    {
+        "time": 1061847.3700000031,
+        "text": "m"
+    },
+    {
+        "time": 1061974.8850000033,
+        "text": "my"
+    },
+    {
+        "time": 1062071.2950000016,
+        "text": "my "
+    },
+    {
+        "time": 1062319.2750000162,
+        "text": "my b"
+    },
+    {
+        "time": 1062487.225000019,
+        "text": "my ba"
+    },
+    {
+        "time": 1062631.48500002,
+        "text": "my bar"
+    },
+    {
+        "time": 1062719.775000005,
+        "text": "my bare"
+    },
+    {
+        "time": 1062815.6100000197,
+        "text": "my bare "
+    },
+    {
+        "time": 1063854.2400000151,
+        "suggestion": "my bare face in the wind"
+    },
+    {
+        "time": 1068314.320000005,
+        "next": null
+    },
+    {
+        "time": 1068551.2600000075,
+        "text": "t"
+    },
+    {
+        "time": 1068751.1649999942,
+        "text": "th"
+    },
+    {
+        "time": 1068872.2249999992,
+        "text": "the"
+    },
+    {
+        "time": 1068959.0600000229,
+        "text": "the "
+    },
+    {
+        "time": 1069062.7800000075,
+        "text": "the s"
+    },
+    {
+        "time": 1069151.2499999953,
+        "text": "the su"
+    },
+    {
+        "time": 1069343.430000008,
+        "text": "the sun"
+    },
+    {
+        "time": 1069455.2700000058,
+        "text": "the sun "
+    },
+    {
+        "time": 1069601.2400000182,
+        "text": "the sun r"
+    },
+    {
+        "time": 1069665.5100000207,
+        "text": "the sun ri"
+    },
+    {
+        "time": 1069806.980000023,
+        "text": "the sun ris"
+    },
+    {
+        "time": 1070134.940000018,
+        "text": "the sun rise"
+    },
+    {
+        "time": 1070535.520000005,
+        "text": "the sun rises"
+    },
+    {
+        "time": 1070847.3300000187,
+        "text": "the sun rises "
+    },
+    {
+        "time": 1071007.0750000014,
+        "text": "the sun rises i"
+    },
+    {
+        "time": 1071174.640000012,
+        "text": "the sun rises in"
+    },
+    {
+        "time": 1071286.6349999967,
+        "text": "the sun rises in "
+    },
+    {
+        "time": 1071377.3100000108,
+        "text": "the sun rises in t"
+    },
+    {
+        "time": 1071447.2600000154,
+        "text": "the sun rises in th"
+    },
+    {
+        "time": 1071558.9000000036,
+        "text": "the sun rises in the"
+    },
+    {
+        "time": 1071662.725000002,
+        "text": "the sun rises in the "
+    },
+    {
+        "time": 1071815.3250000032,
+        "text": "the sun rises in the e"
+    },
+    {
+        "time": 1071983.2250000036,
+        "text": "the sun rises in the ea"
+    },
+    {
+        "time": 1072143.07000002,
+        "text": "the sun rises in the eas"
+    },
+    {
+        "time": 1072366.7050000222,
+        "text": "the sun rises in the east"
+    },
+    {
+        "time": 1073200.215000019,
+        "next": null
+    },
+    {
+        "time": 1076340.2150000038,
+        "next": null
+    },
+    {
+        "time": 1076918.5750000179,
+        "text": "I"
+    },
+    {
+        "time": 1077046.6000000015,
+        "text": "I "
+    },
+    {
+        "time": 1077127.0150000055,
+        "text": "I c"
+    },
+    {
+        "time": 1077214.8750000051,
+        "text": "I ca"
+    },
+    {
+        "time": 1077319.615000015,
+        "text": "I can"
+    },
+    {
+        "time": 1077447.4599999958,
+        "text": "I can "
+    },
+    {
+        "time": 1077535.4700000025,
+        "text": "I can p"
+    },
+    {
+        "time": 1077702.585000021,
+        "text": "I can pl"
+    },
+    {
+        "time": 1077782.984999998,
+        "text": "I can pla"
+    },
+    {
+        "time": 1077953.200000018,
+        "text": "I can play"
+    },
+    {
+        "time": 1078070.940000005,
+        "text": "I can play "
+    },
+    {
+        "time": 1078207.0150000218,
+        "text": "I can play m"
+    },
+    {
+        "time": 1078391.3750000065,
+        "text": "I can play mu"
+    },
+    {
+        "time": 1078470.7500000077,
+        "text": "I can play muc"
+    },
+    {
+        "time": 1078567.955000006,
+        "text": "I can play much"
+    },
+    {
+        "time": 1078678.830000019,
+        "text": "I can play much "
+    },
+    {
+        "time": 1078758.6400000146,
+        "text": "I can play much b"
+    },
+    {
+        "time": 1078927.3099999991,
+        "text": "I can play much be"
+    },
+    {
+        "time": 1079127.2549999994,
+        "text": "I can play much bet"
+    },
+    {
+        "time": 1079278.8650000002,
+        "text": "I can play much bett"
+    },
+    {
+        "time": 1079424.2599999998,
+        "text": "I can play much bette"
+    },
+    {
+        "time": 1079513.030000002,
+        "text": "I can play much better"
+    },
+    {
+        "time": 1079559.3850000005,
+        "text": "I can play much better "
+    },
+    {
+        "time": 1079702.7950000193,
+        "text": "I can play much better n"
+    },
+    {
+        "time": 1079846.5750000032,
+        "text": "I can play much better no"
+    },
+    {
+        "time": 1080910.2150000108,
+        "suggestion": "I can play much better now"
+    },
+    {
+        "time": 1083939.955000009,
+        "next": null
+    },
+    {
+        "time": 1084142.9850000131,
+        "text": "t"
+    },
+    {
+        "time": 1084422.7550000069,
+        "text": "th"
+    },
+    {
+        "time": 1084542.9949999962,
+        "text": "the"
+    },
+    {
+        "time": 1084623.2400000154,
+        "text": "the "
+    },
+    {
+        "time": 1084743.0350000213,
+        "text": "the f"
+    },
+    {
+        "time": 1084958.719999995,
+        "text": "the fr"
+    },
+    {
+        "time": 1085183.480000007,
+        "text": "the f"
+    },
+    {
+        "time": 1085334.4999999972,
+        "text": "the fi"
+    },
+    {
+        "time": 1085406.6049999965,
+        "text": "the fir"
+    },
+    {
+        "time": 1085529.0000000095,
+        "text": "the firs"
+    },
+    {
+        "time": 1085639.3500000122,
+        "text": "the first"
+    },
+    {
+        "time": 1085710.8100000187,
+        "text": "the first "
+    },
+    {
+        "time": 1085902.470000001,
+        "text": "the first t"
+    },
+    {
+        "time": 1085975.0099999947,
+        "text": "the first ti"
+    },
+    {
+        "time": 1086150.8299999987,
+        "text": "the first tim"
+    },
+    {
+        "time": 1086247.010000021,
+        "text": "the first time"
+    },
+    {
+        "time": 1086311.004999996,
+        "text": "the first time "
+    },
+    {
+        "time": 1086447.0049999945,
+        "text": "the first time h"
+    },
+    {
+        "time": 1086526.9250000129,
+        "text": "the first time he"
+    },
+    {
+        "time": 1086615.2650000004,
+        "text": "the first time he "
+    },
+    {
+        "time": 1086815.0800000003,
+        "text": "the first time he t"
+    },
+    {
+        "time": 1087016.570000007,
+        "text": "the first time he tr"
+    },
+    {
+        "time": 1087095.0449999946,
+        "text": "the first time he tri"
+    },
+    {
+        "time": 1087190.9650000161,
+        "text": "the first time he trie"
+    },
+    {
+        "time": 1087383.130000002,
+        "text": "the first time he tried"
+    },
+    {
+        "time": 1087470.5499999982,
+        "text": "the first time he tried "
+    },
+    {
+        "time": 1087615.1100000134,
+        "text": "the first time he tried t"
+    },
+    {
+        "time": 1087663.0550000118,
+        "text": "the first time he tried to"
+    },
+    {
+        "time": 1087798.8250000053,
+        "text": "the first time he tried to "
+    },
+    {
+        "time": 1087886.690000014,
+        "text": "the first time he tried to s"
+    },
+    {
+        "time": 1088062.6100000227,
+        "text": "the first time he tried to sw"
+    },
+    {
+        "time": 1088469.0249999985,
+        "text": "the first time he tried to swi"
+    },
+    {
+        "time": 1088702.5650000141,
+        "text": "the first time he tried to swim"
+    },
+    {
+        "time": 1090042.065000016,
+        "next": null
+    },
+    {
+        "time": 1094514.0250000113,
+        "next": null
+    },
+    {
+        "time": 1094998.6100000096,
+        "text": "p"
+    },
+    {
+        "time": 1095134.2600000207,
+        "text": "pr"
+    },
+    {
+        "time": 1095206.5700000094,
+        "text": "pre"
+    },
+    {
+        "time": 1095342.4600000144,
+        "text": "prep"
+    },
+    {
+        "time": 1095503.150000004,
+        "text": "prepa"
+    },
+    {
+        "time": 1095630.4800000216,
+        "text": "prepar"
+    },
+    {
+        "time": 1095742.7600000228,
+        "text": "prepare"
+    },
+    {
+        "time": 1095838.790000009,
+        "text": "prepare "
+    },
+    {
+        "time": 1096022.5199999986,
+        "text": "prepare f"
+    },
+    {
+        "time": 1096138.5850000079,
+        "text": "prepare fo"
+    },
+    {
+        "time": 1096262.5899999985,
+        "text": "prepare for"
+    },
+    {
+        "time": 1096382.2950000176,
+        "text": "prepare for "
+    },
+    {
+        "time": 1096494.1950000066,
+        "text": "prepare for t"
+    },
+    {
+        "time": 1096606.9050000224,
+        "text": "prepare for th"
+    },
+    {
+        "time": 1096718.7050000066,
+        "text": "prepare for the"
+    },
+    {
+        "time": 1096863.089999999,
+        "text": "prepare for the "
+    },
+    {
+        "time": 1096991.0950000049,
+        "text": "prepare for the e"
+    },
+    {
+        "time": 1097289.684999996,
+        "text": "prepare for the ex"
+    },
+    {
+        "time": 1097398.8550000067,
+        "text": "prepare for the exa"
+    },
+    {
+        "time": 1097553.0850000214,
+        "text": "prepare for the exam"
+    },
+    {
+        "time": 1098040.2199999953,
+        "text": "prepare for the exam "
+    },
+    {
+        "time": 1098142.760000017,
+        "text": "prepare for the exam i"
+    },
+    {
+        "time": 1098318.1449999975,
+        "text": "prepare for the exam in"
+    },
+    {
+        "time": 1098415.160000004,
+        "text": "prepare for the exam in "
+    },
+    {
+        "time": 1098630.4900000105,
+        "text": "prepare for the exam in a"
+    },
+    {
+        "time": 1098774.705000018,
+        "text": "prepare for the exam in ad"
+    },
+    {
+        "time": 1099062.7550000208,
+        "text": "prepare for the exam in adv"
+    },
+    {
+        "time": 1099262.320000009,
+        "text": "prepare for the exam in adva"
+    },
+    {
+        "time": 1100675.6400000013,
+        "suggestion": "prepare for the exam in advance"
+    },
+    {
+        "time": 1103097.7600000042,
+        "next": null
+    },
+    {
+        "time": 1103415.804999997,
+        "text": "t"
+    },
+    {
+        "time": 1103678.8600000145,
+        "text": "th"
+    },
+    {
+        "time": 1103798.770000023,
+        "text": "the"
+    },
+    {
+        "time": 1103870.4549999966,
+        "text": "the "
+    },
+    {
+        "time": 1104071.10500001,
+        "text": "the d"
+    },
+    {
+        "time": 1104134.395000001,
+        "text": "the do"
+    },
+    {
+        "time": 1104406.1050000018,
+        "text": "the dog"
+    },
+    {
+        "time": 1104502.6250000228,
+        "text": "the dog "
+    },
+    {
+        "time": 1104710.9150000033,
+        "text": "the dog b"
+    },
+    {
+        "time": 1104838.6100000062,
+        "text": "the dog bu"
+    },
+    {
+        "time": 1105038.6850000068,
+        "text": "the dog bui"
+    },
+    {
+        "time": 1105439.465000003,
+        "text": "the dog bu"
+    },
+    {
+        "time": 1105542.4000000057,
+        "text": "the dog bur"
+    },
+    {
+        "time": 1105640.1300000143,
+        "text": "the dog buri"
+    },
+    {
+        "time": 1105750.785000011,
+        "text": "the dog burie"
+    },
+    {
+        "time": 1105926.925000007,
+        "text": "the dog buried"
+    },
+    {
+        "time": 1106022.5499999942,
+        "text": "the dog buried "
+    },
+    {
+        "time": 1106222.3499999964,
+        "text": "the dog buried i"
+    },
+    {
+        "time": 1106518.9250000112,
+        "text": "the dog buried in"
+    },
+    {
+        "time": 1106647.1149999998,
+        "text": "the dog buried in "
+    },
+    {
+        "time": 1106790.9100000106,
+        "text": "the dog buried in t"
+    },
+    {
+        "time": 1107246.6549999954,
+        "text": "the dog buried in th"
+    },
+    {
+        "time": 1107382.104999997,
+        "text": "the dog buried in the"
+    },
+    {
+        "time": 1107486.4550000057,
+        "text": "the dog buried in the "
+    },
+    {
+        "time": 1107630.1500000118,
+        "text": "the dog buried in the b"
+    },
+    {
+        "time": 1107878.555000003,
+        "text": "the dog buried in the bo"
+    },
+    {
+        "time": 1108033.295000001,
+        "text": "the dog buried in the bon"
+    },
+    {
+        "time": 1108118.8850000035,
+        "text": "the dog buried in the bone"
+    },
+    {
+        "time": 1109393.700000015,
+        "next": null
+    },
+    {
+        "time": 1160322.9299999948,
+        "next": null
+    },
+    {
+        "time": 1169508.8550000219,
+        "next": null
+    },
+    {
+        "time": 1169645.7850000006,
+        "text": "s"
+    },
+    {
+        "time": 1169821.815000003,
+        "text": "st"
+    },
+    {
+        "time": 1169950.1500000188,
+        "text": "sta"
+    },
+    {
+        "time": 1170357.5850000198,
+        "text": "stay"
+    },
+    {
+        "time": 1170453.3900000097,
+        "text": "stayi"
+    },
+    {
+        "time": 1170623.1250000128,
+        "text": "stayin"
+    },
+    {
+        "time": 1170743.0400000012,
+        "text": "staying"
+    },
+    {
+        "time": 1170909.6800000116,
+        "text": "staying "
+    },
+    {
+        "time": 1171037.7150000131,
+        "text": "staying u"
+    },
+    {
+        "time": 1171230.1800000132,
+        "text": "staying up"
+    },
+    {
+        "time": 1171413.270000019,
+        "text": "staying up "
+    },
+    {
+        "time": 1171861.8600000045,
+        "text": "staying up a"
+    },
+    {
+        "time": 1171966.0800000129,
+        "text": "staying up al"
+    },
+    {
+        "time": 1172077.5600000052,
+        "text": "staying up all"
+    },
+    {
+        "time": 1172205.9550000122,
+        "text": "staying up all "
+    },
+    {
+        "time": 1172342.1899999958,
+        "text": "staying up all n"
+    },
+    {
+        "time": 1173610.9100000176,
+        "suggestion": "staying up all night is a bad idea"
+    },
+    {
+        "time": 1181434.5299999986,
+        "next": null
+    },
+    {
+        "time": 1181621.4050000126,
+        "text": "t"
+    },
+    {
+        "time": 1181869.555000012,
+        "text": "th"
+    },
+    {
+        "time": 1181989.5649999962,
+        "text": "the"
+    },
+    {
+        "time": 1182101.330000005,
+        "text": "the "
+    },
+    {
+        "time": 1182269.3049999943,
+        "text": "the f"
+    },
+    {
+        "time": 1182341.6750000033,
+        "text": "the fo"
+    },
+    {
+        "time": 1182509.705000004,
+        "text": "the fou"
+    },
+    {
+        "time": 1182597.6700000174,
+        "text": "the four"
+    },
+    {
+        "time": 1182725.4100000137,
+        "text": "the four "
+    },
+    {
+        "time": 1182820.2650000167,
+        "text": "the four s"
+    },
+    {
+        "time": 1183005.290000001,
+        "text": "the four se"
+    },
+    {
+        "time": 1183157.9450000136,
+        "text": "the four sea"
+    },
+    {
+        "time": 1183309.3000000226,
+        "text": "the four seas"
+    },
+    {
+        "time": 1183405.2899999951,
+        "text": "the four seaso"
+    },
+    {
+        "time": 1183565.5950000219,
+        "text": "the four season"
+    },
+    {
+        "time": 1183950.3100000147,
+        "text": "the four seasons"
+    },
+    {
+        "time": 1184069.3200000096,
+        "text": "the four seasons "
+    },
+    {
+        "time": 1184189.3649999984,
+        "text": "the four seasons w"
+    },
+    {
+        "time": 1184269.3650000147,
+        "text": "the four seasons wi"
+    },
+    {
+        "time": 1184429.5750000165,
+        "text": "the four seasons wil"
+    },
+    {
+        "time": 1184549.7650000034,
+        "text": "the four seasons will"
+    },
+    {
+        "time": 1184678.3050000085,
+        "text": "the four seasons will "
+    },
+    {
+        "time": 1184741.559999995,
+        "text": "the four seasons will c"
+    },
+    {
+        "time": 1184837.5600000145,
+        "text": "the four seasons will co"
+    },
+    {
+        "time": 1184965.290000022,
+        "text": "the four seasons will com"
+    },
+    {
+        "time": 1185037.2650000209,
+        "text": "the four seasons will come"
+    },
+    {
+        "time": 1186820.71,
+        "next": null
+    },
+    {
+        "time": 1203943.020000006,
+        "next": null
+    },
+    {
+        "time": 1204556.750000018,
+        "text": "p"
+    },
+    {
+        "time": 1204741.3550000056,
+        "text": "pl"
+    },
+    {
+        "time": 1204837.3100000026,
+        "text": "ple"
+    },
+    {
+        "time": 1204973.0550000095,
+        "text": "plea"
+    },
+    {
+        "time": 1205084.8200000182,
+        "text": "pleas"
+    },
+    {
+        "time": 1205261.289999995,
+        "text": "please"
+    },
+    {
+        "time": 1205349.2350000015,
+        "text": "please "
+    },
+    {
+        "time": 1205509.3700000143,
+        "text": "please t"
+    },
+    {
+        "time": 1205589.4250000129,
+        "text": "please ta"
+    },
+    {
+        "time": 1205700.9600000165,
+        "text": "please tak"
+    },
+    {
+        "time": 1205829.9150000094,
+        "text": "please take"
+    },
+    {
+        "time": 1205917.5600000017,
+        "text": "please take "
+    },
+    {
+        "time": 1206005.3550000011,
+        "text": "please take a"
+    },
+    {
+        "time": 1206149.0900000208,
+        "text": "please take a "
+    },
+    {
+        "time": 1206253.3500000136,
+        "text": "please take a b"
+    },
+    {
+        "time": 1206415.1350000175,
+        "text": "please take a ba"
+    },
+    {
+        "time": 1206605.1399999997,
+        "text": "please take a bat"
+    },
+    {
+        "time": 1206853.0250000185,
+        "text": "please take a bath"
+    },
+    {
+        "time": 1207005.1800000074,
+        "text": "please take a bath "
+    },
+    {
+        "time": 1207268.775000004,
+        "text": "please take a bath t"
+    },
+    {
+        "time": 1207349.3700000108,
+        "text": "please take a bath th"
+    },
+    {
+        "time": 1207541.2350000115,
+        "text": "please take a bath thi"
+    },
+    {
+        "time": 1207565.0850000093,
+        "text": "please take a bath this"
+    },
+    {
+        "time": 1208045.3550000093,
+        "text": "please take a bath this "
+    },
+    {
+        "time": 1208156.895000022,
+        "text": "please take a bath this m"
+    },
+    {
+        "time": 1209165.0749999972,
+        "text": "please take a bath this mo"
+    },
+    {
+        "time": 1209364.6400000143,
+        "text": "please take a bath this mon"
+    },
+    {
+        "time": 1209485.240000009,
+        "text": "please take a bath this mont"
+    },
+    {
+        "time": 1209604.7150000231,
+        "text": "please take a bath this month"
+    },
+    {
+        "time": 1210862.4150000105,
+        "next": null
+    },
+    {
+        "time": 1225135.9600000142,
+        "next": null
+    },
+    {
+        "time": 1225277.1800000046,
+        "text": "a"
+    },
+    {
+        "time": 1225578.3400000073,
+        "text": "a "
+    },
+    {
+        "time": 1225700.515000004,
+        "text": "a f"
+    },
+    {
+        "time": 1226068.7200000102,
+        "text": "a fx"
+    },
+    {
+        "time": 1226316.9900000212,
+        "text": "a f"
+    },
+    {
+        "time": 1226492.7200000093,
+        "text": "a fo"
+    },
+    {
+        "time": 1226597.2750000074,
+        "text": "a fox"
+    },
+    {
+        "time": 1226700.7200000226,
+        "text": "a fox "
+    },
+    {
+        "time": 1227021.1899999995,
+        "text": "a fox i"
+    },
+    {
+        "time": 1227197.199999995,
+        "text": "a fox is"
+    },
+    {
+        "time": 1227277.3650000163,
+        "text": "a fox is "
+    },
+    {
+        "time": 1227420.8950000175,
+        "text": "a fox is a"
+    },
+    {
+        "time": 1227542.30500001,
+        "text": "a fox is a "
+    },
+    {
+        "time": 1227693.020000006,
+        "text": "a fox is a v"
+    },
+    {
+        "time": 1227852.7699999977,
+        "text": "a fox is a ve"
+    },
+    {
+        "time": 1227948.8450000063,
+        "text": "a fox is a ver"
+    },
+    {
+        "time": 1228156.8400000106,
+        "text": "a fox is a very"
+    },
+    {
+        "time": 1228270.6900000048,
+        "text": "a fox is a very "
+    },
+    {
+        "time": 1229187.8549999965,
+        "suggestion": "a fox is a very smart animal"
+    },
+    {
+        "time": 1273547.4500000128,
+        "next": null
+    },
+    {
+        "time": 1273748.7600000168,
+        "text": "d"
+    },
+    {
+        "time": 1274020.525,
+        "text": "do"
+    },
+    {
+        "time": 1274180.5100000056,
+        "text": "dor"
+    },
+    {
+        "time": 1274294.8500000057,
+        "text": "dorm"
+    },
+    {
+        "time": 1274436.405000015,
+        "text": "dormi"
+    },
+    {
+        "time": 1274548.7200000207,
+        "text": "dormit"
+    },
+    {
+        "time": 1274867.7299999981,
+        "text": "dormito"
+    },
+    {
+        "time": 1274997.0700000122,
+        "text": "dormitor"
+    },
+    {
+        "time": 1275318.7650000036,
+        "text": "dormitory"
+    },
+    {
+        "time": 1275428.7750000076,
+        "text": "dormitory "
+    },
+    {
+        "time": 1275788.4950000152,
+        "text": "dormitory d"
+    },
+    {
+        "time": 1275812.6800000027,
+        "text": "dormitory do"
+    },
+    {
+        "time": 1275940.2300000074,
+        "text": "dormitory doo"
+    },
+    {
+        "time": 1276060.0649999978,
+        "text": "dormitory door"
+    },
+    {
+        "time": 1276324.4500000146,
+        "text": "dormitory doord"
+    },
+    {
+        "time": 1276620.1949999959,
+        "text": "dormitory door"
+    },
+    {
+        "time": 1276708.0500000156,
+        "text": "dormitory doors"
+    },
+    {
+        "time": 1276830.2950000216,
+        "text": "dormitory doors "
+    },
+    {
+        "time": 1276964.3199999991,
+        "text": "dormitory doors a"
+    },
+    {
+        "time": 1277099.9650000012,
+        "text": "dormitory doors a "
+    },
+    {
+        "time": 1277180.155000009,
+        "text": "dormitory doors a r"
+    },
+    {
+        "time": 1277356.6350000037,
+        "text": "dormitory doors a "
+    },
+    {
+        "time": 1277459.904999996,
+        "text": "dormitory doors a"
+    },
+    {
+        "time": 1277572.0750000037,
+        "text": "dormitory doors ar"
+    },
+    {
+        "time": 1277652.625000017,
+        "text": "dormitory doors are"
+    },
+    {
+        "time": 1277756.2200000102,
+        "text": "dormitory doors are "
+    },
+    {
+        "time": 1277868.1250000081,
+        "text": "dormitory doors are l"
+    },
+    {
+        "time": 1278020.1499999966,
+        "text": "dormitory doors are lo"
+    },
+    {
+        "time": 1278284.3799999973,
+        "text": "dormitory doors are lok"
+    },
+    {
+        "time": 1278579.8450000002,
+        "text": "dormitory doors are lo"
+    },
+    {
+        "time": 1278668.3049999992,
+        "text": "dormitory doors are loc"
+    },
+    {
+        "time": 1278748.3650000067,
+        "text": "dormitory doors are lock"
+    },
+    {
+        "time": 1278844.390000013,
+        "text": "dormitory doors are locke"
+    },
+    {
+        "time": 1279020.3500000061,
+        "text": "dormitory doors are locked"
+    },
+    {
+        "time": 1279116.4250000147,
+        "text": "dormitory doors are locked "
+    },
+    {
+        "time": 1279251.8750000163,
+        "text": "dormitory doors are locked a"
+    },
+    {
+        "time": 1279508.4150000184,
+        "text": "dormitory doors are locked at"
+    },
+    {
+        "time": 1281043.4550000064,
+        "suggestion": "dormitory doors are locked at midnight"
+    },
+    {
+        "time": 1286457.1750000177,
+        "next": null
+    },
+    {
+        "time": 1286932.2650000104,
+        "text": "n"
+    },
+    {
+        "time": 1287076.2450000038,
+        "text": "no"
+    },
+    {
+        "time": 1287252.0300000033,
+        "text": "no "
+    },
+    {
+        "time": 1287420.0150000106,
+        "text": "no m"
+    },
+    {
+        "time": 1287484.070000006,
+        "text": "no mo"
+    },
+    {
+        "time": 1287580.025000003,
+        "text": "no mor"
+    },
+    {
+        "time": 1287692.2150000173,
+        "text": "no more"
+    },
+    {
+        "time": 1287788.1599999964,
+        "text": "no more "
+    },
+    {
+        "time": 1287988.085000019,
+        "text": "no more w"
+    },
+    {
+        "time": 1288141.1950000038,
+        "text": "no more wa"
+    },
+    {
+        "time": 1288244.074999995,
+        "text": "no more war"
+    },
+    {
+        "time": 1288357.6000000176,
+        "text": "no more war "
+    },
+    {
+        "time": 1288499.9349999998,
+        "text": "no more war n"
+    },
+    {
+        "time": 1288622.2300000081,
+        "text": "no more war no"
+    },
+    {
+        "time": 1288780.230000004,
+        "text": "no more war no "
+    },
+    {
+        "time": 1288891.6100000206,
+        "text": "no more war no m"
+    },
+    {
+        "time": 1288972.0749999979,
+        "text": "no more war no mo"
+    },
+    {
+        "time": 1289076.1400000192,
+        "text": "no more war no mor"
+    },
+    {
+        "time": 1289163.9399999985,
+        "text": "no more war no more"
+    },
+    {
+        "time": 1289316.1450000189,
+        "text": "no more war no more "
+    },
+    {
+        "time": 1289628.9099999995,
+        "text": "no more war no more b"
+    },
+    {
+        "time": 1289716.2499999977,
+        "text": "no more war no more bl"
+    },
+    {
+        "time": 1289940.0000000023,
+        "text": "no more war no more blo"
+    },
+    {
+        "time": 1290099.669999996,
+        "text": "no more war no more bloo"
+    },
+    {
+        "time": 1290220.0799999991,
+        "text": "no more war no more blood"
+    },
+    {
+        "time": 1290660.3350000223,
+        "text": "no more war no more bloods"
+    },
+    {
+        "time": 1290812.0700000145,
+        "text": "no more war no more bloodsh"
+    },
+    {
+        "time": 1290883.8600000017,
+        "text": "no more war no more bloodshe"
+    },
+    {
+        "time": 1291075.9850000031,
+        "text": "no more war no more bloodshed"
+    },
+    {
+        "time": 1292914.9200000102,
+        "next": null
+    }
+]

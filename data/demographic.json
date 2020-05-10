@@ -1,0 +1,155 @@
+[
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 28,
+        "gender": "female",
+        "experience": 2
+    },
+    {
+        "hand": "left",
+        "age": 26,
+        "gender": "male",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 2
+    },
+
+
+    {
+        "hand": "left",
+        "age": 25,
+        "gender": "female",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 25,
+        "gender": "male",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 26,
+        "gender": "female",
+        "experience": 2
+    },
+    {
+        "hand": "left",
+        "age": 26,
+        "gender": "male",
+        "experience": 2
+    },
+
+
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 26,
+        "gender": "female",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 24,
+        "gender": "female",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "female",
+        "experience": 3
+    },
+
+
+    {
+        "hand": "right",
+        "age": 25,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 25,
+        "gender": "male",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 24,
+        "gender": "male",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 3
+    },
+    {
+        "hand": "right",
+        "age": 24,
+        "gender": "male",
+        "experience": 2
+    },
+
+
+    {
+        "hand": "right",
+        "age": 23,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 24,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 29,
+        "gender": "male",
+        "experience": 2
+    },
+    {
+        "hand": "right",
+        "age": 32,
+        "gender": "male",
+        "experience": 3
+    }
+    
+]
