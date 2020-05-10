@@ -57,10 +57,16 @@ button:hover {
 path {
     fill: none;
     stroke: black;
-    stroke-width: 2px;
+    stroke-width: 60px;
 }
 
 svg {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 500px;
+    display: block;
+    overflow: visible;
+}
+
+svg, svg *, circle, path {
+    display: block;
 }
