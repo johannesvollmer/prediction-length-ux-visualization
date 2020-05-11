@@ -76,10 +76,17 @@ class Experiment:
                 if phrase.plausible: block.append(phrase)
 
             blocks.append(block)
-        
         _warmup = blocks.pop(0)
+        
         self.participant = participant
         self.blocks = blocks
+        self.phrases = [phrase for block in blocks for phrase in block]
+
+        # additionally, sort all phrases by their threshold
+        self.byThreshold = [ [], [], [], [], [], [] ]
+        for phrase in self.phrases: 
+            self.byThreshold[int((phrase.threshold + 0.001) * 5)].append(phrase)
+
 
 
 def load():
