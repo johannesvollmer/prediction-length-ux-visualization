@@ -51,12 +51,14 @@ class Phrase:
         self.threshold = phrase["threshold"]
         self.duration = durationMillis * 0.001
         self.keyPresses = len(ownEvents) - 2
-        self.charsThreshold = len(target) * (1 - phrase["threshold"])
+        self.suggestedChars = int(len(target) * (1 - phrase["threshold"]))
         self.throughput = throughput.throughput
         self.charsPerSecond = throughput.cps
         self.wordsPerMinute = 12 * throughput.cps
         
         self.plausible = len(transcribed) > 0
+        # TODO actual number of letters saved (compared to possible savings per threshold)
+        # TODO per person, improvement with suggestions
 
 
 class Experiment: 
