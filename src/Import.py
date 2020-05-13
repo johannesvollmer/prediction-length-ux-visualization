@@ -61,6 +61,12 @@ class Phrase:
         # TODO actual number of letters saved (compared to possible savings per threshold)
         # TODO per person, improvement with suggestions
 
+class Participant:
+    def __init__(self, participant):
+        self.age = participant["age"]
+        self.experience = participant["experience"]
+        self.left = participant["hand"] == "left"
+        self.female = participant["gender"] == "female"
 
 class Experiment: 
     def __init__(self, events, participant):
@@ -79,7 +85,7 @@ class Experiment:
             blocks.append(block)
         _warmup = blocks.pop(0)
         
-        self.participant = participant
+        self.participant = Participant(participant)
         self.blocks = blocks
         self.phrases = [phrase for block in blocks for phrase in block]
 

@@ -2,7 +2,7 @@ from Import import load
 import numpy as num
 from functools import reduce
 import matplotlib.pyplot as plot
-flatten = lambda listoflists: [element for alist in listoflists for element in alist]
+percentage = lambda elements, filterLambda: round(100 * len(list(filter(filterLambda, elements))) / len(elements), 2)
 
 print("loading...")
 experiments = load()
@@ -11,21 +11,17 @@ print("finished.\n")
 
 print(f"participants: {len(experiments)}")
 
-females = list(filter(lambda experiment: experiment.participant["gender"] == "female", experiments))
-print(f"females: {len(females)} ({100 * len(females) / len(experiments)}%)")
+print(f"females: {percentage(experiments, lambda experiment: experiment.participant.female)}%")
+print(f"left handed: {percentage(experiments, lambda experiment: experiment.participant.left)}%")
 
-left = list(filter(lambda experiment: experiment.participant["hand"] == "left", experiments))
-print(f"left handed: {len(left)} ({100 * len(left) / len(experiments)}%)")
+print(f"median age: {round(num.median([experiment.participant.age for experiment in experiments]), 4)}")
+print(f"median error rate: {round(num.median([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
+print(f"average error rate: {round(num.average([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
+print(f"median wpm: {round(num.median([phrase.wordsPerMinute for phrase in phrases]), 4)}")
+print(f"average wpm: {round(num.average([phrase.wordsPerMinute for phrase in phrases]), 4)}")
 
-medianAge = num.median(num.array(list(map(lambda exp: exp.participant["age"], experiments))))
-print(f"median age: {medianAge}")
-
-incorrectSuggestions = list(filter(lambda phrase: phrase.selectedSuggestion is not None and phrase.selectedSuggestion != phrase.target, phrases))
-print(f"incorrect suggestions: {len(incorrectSuggestions)} ({100 * len(incorrectSuggestions) / len(phrases)}%)")
-
-redundantSuggestions = list(filter(lambda phrase: phrase.selectedSuggestion == phrase.target and phrase.typedText == phrase.target, phrases))
-print(f"redundant suggestions: {len(redundantSuggestions)} ({100 * len(redundantSuggestions) / len(phrases)}%)")
-
+print(f"incorrect suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion is not None and phrase.selectedSuggestion != phrase.target)}%")
+print(f"redundant suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion == phrase.target and phrase.typedText == phrase.target)}%")
 
 phrasesByThreshold = [[phrase for experiment in experiments for phrase in experiment.byThreshold[index]] for index in range(6)]
 throughputByThreshold = [[phrase.throughput for phrase in threshold] for threshold in phrasesByThreshold]
