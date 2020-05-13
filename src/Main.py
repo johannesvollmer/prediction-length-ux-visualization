@@ -13,15 +13,15 @@ print(f"participants: {len(experiments)}")
 
 print(f"females: {percentage(experiments, lambda experiment: experiment.participant.female)}%")
 print(f"left handed: {percentage(experiments, lambda experiment: experiment.participant.left)}%")
-
 print(f"median age: {round(num.median([experiment.participant.age for experiment in experiments]), 4)}")
 print(f"median error rate: {round(num.median([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
 print(f"average error rate: {round(num.average([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
 print(f"median wpm: {round(num.median([phrase.wordsPerMinute for phrase in phrases]), 4)}")
 print(f"average wpm: {round(num.average([phrase.wordsPerMinute for phrase in phrases]), 4)}")
-
 print(f"incorrect suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion is not None and phrase.selectedSuggestion != phrase.target)}%")
 print(f"redundant suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion == phrase.target and phrase.typedText == phrase.target)}%")
+print(f"unused full suggestions: {percentage(phrases, lambda phrase: phrase.threshold == 0 and phrase.selectedSuggestion is None)}%")
+print(f"total correlation of suggestion percentage and throughput: {round(num.corrcoef([(1-phrase.threshold) for phrase in phrases], [phrase.throughput for phrase in phrases])[1,0], 4)}%")
 
 phrasesByThreshold = [[phrase for experiment in experiments for phrase in experiment.byThreshold[index]] for index in range(6)]
 throughputByThreshold = [[phrase.throughput for phrase in threshold] for threshold in phrasesByThreshold]
@@ -37,11 +37,6 @@ def personImprovement(experiment):
     correlation = num.corrcoef(thres, through)[1,0]
     # print(f"correlation: {correlation}")
     return correlation
-
-
-thres = [1 - phrase.threshold for experiment in experiments for phrase in experiment.phrases]
-through = [phrase.throughput for experiment in experiments for phrase in experiment.phrases]
-print(f"correlation of suggested percentage to throughput: {num.corrcoef(thres, through)[1,0]})")
 
 thresholds = [0, 20, 40, 60, 80, 100]
 x = thresholds[::-1]
@@ -63,6 +58,14 @@ print(f"median correlation (per person) of suggested percentage to throughput: {
 bars.bar(range(len(experiments)), improvementPerPerson, color="#444")
 bars.set_ylabel('correlation of letter percentage to throughput')
 bars.set_xlabel('person')
+
+
+# bar = [percentage(experiment.phrases, lambda phrase: phrase.selectedSuggestion is not None and phrase.targetWasSuggested) for experiment in experiments]
+# bar.sort()
+
+# bars.bar(range(len(experiments)), bar, color="#444")
+# bars.set_ylabel('correlation of letter percentage to throughput')
+# bars.set_xlabel('person')
 
 wpmQuantiles = [[num.quantile(throughputs, quantile) for throughputs in wpmByThreshold] for quantile in [0, 0.25, 0.5, 0.75, 1.0]]
 wpm.fill_between(x, wpmQuantiles[0], wpmQuantiles[4], color="#ddd")

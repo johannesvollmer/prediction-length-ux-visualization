@@ -47,8 +47,10 @@ class Phrase:
         self.typedText = typedText
         self.selectedSuggestion = suggestion
 
-        self.suggestions = phrase["suggestions"]
         self.threshold = phrase["threshold"]
+        self.suggestions = phrase["suggestions"]
+        self.targetWasSuggested = target in self.suggestions
+        
         self.duration = durationMillis * 0.001
         self.keyPresses = len(ownEvents) - 2
         self.suggestedChars = int(len(target) * (1 - phrase["threshold"]))
