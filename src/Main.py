@@ -6,27 +6,28 @@ percentage = lambda elements, filterLambda: round(100 * len(list(filter(filterLa
 
 print("loading...")
 experiments = load()
-phrases = [phrase for experiment in experiments for phrase in experiment.phrases]
 print("finished.\n")
+
+phrases = [phrase for experiment in experiments for phrase in experiment.phrases]
+phrasesByThreshold = [[phrase for experiment in experiments for phrase in experiment.byThreshold[index]] for index in range(6)]
+
+throughputByThreshold = [[phrase.throughput for phrase in threshold] for threshold in phrasesByThreshold]
+wpmByThreshold = [[phrase.wordsPerMinute for phrase in threshold] for threshold in phrasesByThreshold]
+errorsByThreshold = [[phrase.uncorrectedErrorRate for phrase in threshold] for threshold in phrasesByThreshold]
 
 print(f"participants: {len(experiments)}")
 
 print(f"females: {percentage(experiments, lambda experiment: experiment.participant.female)}%")
 print(f"left handed: {percentage(experiments, lambda experiment: experiment.participant.left)}%")
 print(f"median age: {round(num.median([experiment.participant.age for experiment in experiments]), 4)}")
+
 print(f"median error rate: {round(num.median([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
 print(f"average error rate: {round(num.average([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
-print(f"median wpm: {round(num.median([phrase.wordsPerMinute for phrase in phrases]), 4)}")
-print(f"average wpm: {round(num.average([phrase.wordsPerMinute for phrase in phrases]), 4)}")
+
 print(f"incorrect suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion is not None and phrase.selectedSuggestion != phrase.target)}%")
 print(f"redundant suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion == phrase.target and phrase.typedText == phrase.target)}%")
 print(f"unused full suggestions: {percentage(phrases, lambda phrase: phrase.threshold == 0 and phrase.selectedSuggestion is None)}%")
 print(f"total correlation of suggestion percentage and throughput: {round(num.corrcoef([(1-phrase.threshold) for phrase in phrases], [phrase.throughput for phrase in phrases])[1,0], 4)}%")
-
-phrasesByThreshold = [[phrase for experiment in experiments for phrase in experiment.byThreshold[index]] for index in range(6)]
-throughputByThreshold = [[phrase.throughput for phrase in threshold] for threshold in phrasesByThreshold]
-wpmByThreshold = [[phrase.wordsPerMinute for phrase in threshold] for threshold in phrasesByThreshold]
-errorsByThreshold = [[phrase.uncorrectedErrorRate for phrase in threshold] for threshold in phrasesByThreshold]
 
 def personImprovement(experiment):
     # averageByThreshold = [num.average([phrase.throughput for phrase in phrases]) for phrases in experiment.byThreshold]
