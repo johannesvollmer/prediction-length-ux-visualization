@@ -55,6 +55,7 @@ class Phrase:
         self.throughput = throughput.throughput
         self.charsPerSecond = throughput.cps
         self.wordsPerMinute = 12 * throughput.cps
+        self.uncorrectedErrorRate = throughput.totalINF / (throughput.totalINF + throughput.totalC)
         
         self.plausible = len(transcribed) > 0
         # TODO actual number of letters saved (compared to possible savings per threshold)
