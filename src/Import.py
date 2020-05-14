@@ -5,11 +5,24 @@ from lib.throughput.Throughput import Throughput
 import json
 import os
 from os import path
+from Levenshtein import distance
 
 dataDir = os.getcwd() + f"\\data"
 
+def showSuggestions(transcription, phrase):
+    requiredLetters = int(phrase.threshold * len(phrase.target))
+    requiredPart = phrase.target[:requiredLetters]
+    transcribedPart = transcription[:requiredLetters] 
+    if phrase.threshold == 0: return True
+    elif phrase.threshold == 1: return False
+    else: return len(transcription) >= requiredLetters and distance(requiredPart, transcribedPart) <= len(phrase.target) * 0.4
+
 class Phrase: 
     def __init__(self, events, phrase):
+        self.target = phrase["target"]
+        self.threshold = phrase["threshold"]
+        self.suggestions = phrase["suggestions"]
+
         startEvent = events.pop(0)
         ownEvents = [ startEvent ]
         transcribed = ""
@@ -17,16 +30,26 @@ class Phrase:
         typedText = None
         suggestion = None
 
+        if showSuggestions(transcribed, self): firstSuggestionTime = startEvent["time"]
+        else: firstSuggestionTime = None
+
         while True:
             event = events.pop(0)
             ownEvents.append(event)
 
             if "text" in event:
-                if len(event["text"]) < len(transcribed): 
+                newText = event["text"]
+                previousText = transcribed
+
+                if firstSuggestionTime is None and showSuggestions(newText, self):
+                    firstSuggestionTime = event["time"]
+
+                if len(newText) < len(previousText): 
                     deletions += 1
 
-                typedText = event["text"]
+                typedText = newText
                 transcribed = typedText
+
 
             if "suggestion" in event:
                 suggestion = event["suggestion"]
@@ -36,30 +59,31 @@ class Phrase:
                 break
 
         endEvent = ownEvents[-1]
-        target = phrase["target"]
         durationMillis = endEvent["time"] - startEvent["time"]
-        throughput = Throughput(target = target, transcribed = transcribed, time = durationMillis)
+        throughput = Throughput(target = self.target, transcribed = transcribed, time = durationMillis)
 
-        self.target = target
+        self.suggestionDuration = 0
+        if firstSuggestionTime is not None:
+            self.suggestionDuration = (endEvent["time"] - firstSuggestionTime) * 0.001
+
+
         self.durationMillis = durationMillis
         self.transcribed = transcribed
         self.deletions = deletions
         self.typedText = typedText
         self.selectedSuggestion = suggestion
 
-        self.threshold = phrase["threshold"]
-        self.suggestions = phrase["suggestions"]
-        self.targetWasSuggested = target in self.suggestions
+        self.targetWasSuggested = self.target in self.suggestions
         
         self.duration = durationMillis * 0.001
         self.keyPresses = len(ownEvents) - 2
-        self.suggestedChars = int(len(target) * (1 - phrase["threshold"]))
+        self.suggestedChars = int(len(self.target) * (1 - phrase["threshold"]))
         self.throughput = throughput.throughput
         self.charsPerSecond = throughput.cps
         self.wordsPerMinute = 12 * throughput.cps
         self.uncorrectedErrorRate = throughput.totalINF / (throughput.totalINF + throughput.totalC)
         
-        self.plausible = len(transcribed) > 0
+        self.plausible = len(transcribed) > 0 and self.durationMillis > 300
         # TODO actual number of letters saved (compared to possible savings per threshold)
         # TODO per person, improvement with suggestions
 

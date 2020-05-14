@@ -9,11 +9,18 @@ experiments = load()
 print("finished.\n")
 
 phrases = [phrase for experiment in experiments for phrase in experiment.phrases]
+phrasesWithSuggestion = list(filter(lambda phrase: phrase.targetWasSuggested, phrases))
+phrasesWithSelectableSuggestion = list(filter(lambda phrase: phrase.suggestionDuration != 0, phrasesWithSuggestion))
 phrasesByThreshold = [[phrase for experiment in experiments for phrase in experiment.byThreshold[index]] for index in range(6)]
 
 throughputByThreshold = [[phrase.throughput for phrase in threshold] for threshold in phrasesByThreshold]
 wpmByThreshold = [[phrase.wordsPerMinute for phrase in threshold] for threshold in phrasesByThreshold]
 errorsByThreshold = [[phrase.uncorrectedErrorRate for phrase in threshold] for threshold in phrasesByThreshold]
+
+# selectableByThreshold = [list(filter(lambda phrase: phrase.targetWasSuggested, threshold)) for threshold in phrasesByThreshold]
+totalTimeByThreshold = [num.average([phrase.duration for phrase in threshold]) for threshold in phrasesByThreshold]
+hiddenTimeByThreshold = [num.average([phrase.duration - phrase.suggestionDuration for phrase in threshold]) for threshold in phrasesByThreshold]
+
 
 print(f"participants: {len(experiments)}")
 
@@ -21,8 +28,12 @@ print(f"females: {percentage(experiments, lambda experiment: experiment.particip
 print(f"left handed: {percentage(experiments, lambda experiment: experiment.participant.left)}%")
 print(f"median age: {round(num.median([experiment.participant.age for experiment in experiments]), 4)}")
 
+print(f"percentage of picked suggestions where possible: {percentage(phrasesWithSelectableSuggestion, lambda phrase: phrase.selectedSuggestion is not None)}%")
 print(f"median error rate: {round(num.median([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
 print(f"average error rate: {round(num.average([phrase.uncorrectedErrorRate for phrase in phrases]), 4)}")
+
+
+print(f"median time from first suggestion to finishing: {round(num.median([phrase.suggestionDuration for phrase in phrasesWithSelectableSuggestion]), 2)}s")
 
 print(f"incorrect suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion is not None and phrase.selectedSuggestion != phrase.target)}%")
 print(f"redundant suggestions: {percentage(phrases, lambda phrase: phrase.selectedSuggestion == phrase.target and phrase.typedText == phrase.target)}%")
@@ -68,11 +79,17 @@ bars.set_xlabel('person')
 # bars.set_ylabel('correlation of letter percentage to throughput')
 # bars.set_xlabel('person')
 
-wpmQuantiles = [[num.quantile(throughputs, quantile) for throughputs in wpmByThreshold] for quantile in [0, 0.25, 0.5, 0.75, 1.0]]
-wpm.fill_between(x, wpmQuantiles[0], wpmQuantiles[4], color="#ddd")
-wpm.fill_between(x, wpmQuantiles[1], wpmQuantiles[3], color="#aaa")
-wpm.plot(x, wpmQuantiles[2], '-', color="#222")
-wpm.set_ylabel('words per minute')
+# wpmQuantiles = [[num.quantile(throughputs, quantile) for throughputs in wpmByThreshold] for quantile in [0, 0.25, 0.5, 0.75, 1.0]]
+# wpm.fill_between(x, wpmQuantiles[0], wpmQuantiles[4], color="#ddd")
+# wpm.fill_between(x, wpmQuantiles[1], wpmQuantiles[3], color="#aaa")
+# wpm.plot(x, wpmQuantiles[2], '-', color="#222")
+# wpm.set_ylabel('words per minute')
+# wpm.set_xlabel('percentage of letters suggested')
+
+
+wpm.fill_between(x, totalTimeByThreshold, color="#333", label="total time")
+wpm.fill_between(x, hiddenTimeByThreshold, color="#bbb", label="time spent before suggestions appeared")
+wpm.set_ylabel('seconds')
 wpm.set_xlabel('percentage of letters suggested')
 
 errorQuantiles = [[num.quantile(throughputs, quantile) for throughputs in errorsByThreshold] for quantile in [0, 0.25, 0.5, 0.75, 1.0]]
