@@ -1,7 +1,6 @@
 # convert the raw captured data to a simplified format, merging all experiments and demographic data into a single file
 
 
-from lib.throughput.Throughput import Throughput
 import json
 import os
 from os import path
@@ -60,12 +59,11 @@ class Phrase:
 
         endEvent = ownEvents[-1]
         durationMillis = endEvent["time"] - startEvent["time"]
-        throughput = Throughput(target = self.target, transcribed = transcribed, time = durationMillis)
+        
 
         self.suggestionDuration = 0
         if firstSuggestionTime is not None:
             self.suggestionDuration = (endEvent["time"] - firstSuggestionTime) * 0.001
-
 
         self.durationMillis = durationMillis
         self.transcribed = transcribed
@@ -78,11 +76,10 @@ class Phrase:
         self.duration = durationMillis * 0.001
         self.keyPresses = len(ownEvents) - 2
         self.suggestedChars = int(len(self.target) * (1 - phrase["threshold"]))
-        self.throughput = throughput.throughput
-        self.charsPerSecond = throughput.cps
-        self.wordsPerMinute = 12 * throughput.cps
-        self.uncorrectedErrorRate = throughput.totalINF / (throughput.totalINF + throughput.totalC)
         
+        self.distance = distance(self.target, self.transcribed)
+        self.keyStrokesPerChar = self.keyPresses / len(self.target)
+
         self.plausible = len(transcribed) > 0 and self.durationMillis > 300
         # TODO actual number of letters saved (compared to possible savings per threshold)
         # TODO per person, improvement with suggestions

@@ -48,18 +48,12 @@ char_freq = np.array([0.06545420428810268, 0.012614349400134882, 0.0223820796607
             0.0005138874382474097, 0.18325568938199557])
 
 
+
 class Throughput(object):
     """Class for Throughput"""
-    def __init__(self, target, transcribed, time):
+    def __init__(self, phrases):
         translator = str.maketrans('', '', string.punctuation+'1234567890\n')
-        
-        self.trials = [
-            [
-                target.lower().translate(translator), 
-                transcribed.lower().translate(translator), 
-                time / 1000.0
-            ]
-        ]
+        self.trials = [[phrase.target.lower().translate(translator), phrase.transcribed.lower().translate(translator), phrase.duration] for phrase in phrases]
         
         # Transmission prob table p(i,j), from 'a-z', space, null to 'a-z', space, null
         self.table = np.zeros((28, 28)) 
@@ -72,8 +66,6 @@ class Throughput(object):
         self.totalINF = 0 # total incorrect not fixed error characters
         self.totalC = 0 # total correct transmitted characters
 
-        self.throughput = self.calThroughput()
-        self.uncorrectedErrRate = (self.totalINF / (self.totalINF + self.totalC))
 
     '''Function for calculating the transmission probability table (P(i,j))'''
     def calErrorTable(self):
@@ -177,3 +169,6 @@ class Throughput(object):
         # Throughput is the mutual information * cps
         return (source_entropy-transcribe_entropy) * self.cps
 
+
+def throughput(phrases):
+    return Throughput(phrases).calThroughput()
