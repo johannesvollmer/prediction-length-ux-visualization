@@ -79,6 +79,7 @@ class Phrase:
         
         self.distance = distance(self.target, self.transcribed)
         self.keyStrokesPerChar = self.keyPresses / len(self.target)
+        self.levenshteinError = self.distance / max(len(self.target), len(self.transcribed))
 
         self.plausible = len(transcribed) > 0 and self.durationMillis > 300
         # TODO actual number of letters saved (compared to possible savings per threshold)
