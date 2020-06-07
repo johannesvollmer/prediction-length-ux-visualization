@@ -5,6 +5,7 @@ import json
 import os
 from os import path
 from Levenshtein import distance
+from lib.throughput.Throughput import throughput
 
 dataDir = os.getcwd() + f"\\data"
 
@@ -81,9 +82,14 @@ class Phrase:
         self.keyStrokesPerChar = self.keyPresses / len(self.target)
         self.levenshteinError = self.distance / max(len(self.target), len(self.transcribed))
 
+        self.wpm = (len(self.target) / 5) / (self.duration / 60)
+
         self.plausible = len(transcribed) > 0 and self.durationMillis > 300
         # TODO actual number of letters saved (compared to possible savings per threshold)
         # TODO per person, improvement with suggestions
+
+        self.selfThroughput = throughput([self])
+
 
 class Participant:
     def __init__(self, participant):
